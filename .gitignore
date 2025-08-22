@@ -294,7 +294,6 @@ tools/bazel
 
 # Visual Studio Code files
 .vs
-/.vscode/*
 !/.vscode/extensions.json
 !/.vscode/settings_recommended.json
 
@@ -334,7 +333,6 @@ bazel-*
 xla/
 
 # direnv, posh-direnv
-.env
 .envrc
 .psenvrc
 
@@ -369,3 +367,5 @@ venv/
 # Log files
 *.log
 sweep/
+config.bat
+node_modules
